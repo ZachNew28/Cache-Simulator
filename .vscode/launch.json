@@ -1,0 +1,23 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Project 4",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/simulator",
+            "args": [
+                "test3.4.2.1.mc",
+                "4",
+                "2",
+                "1"
+            ],
+            "stopAtEntry": true,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "lldb",
+            "preLaunchTask": "C/C++: make simulator"
+        }
+    ]
+  }
